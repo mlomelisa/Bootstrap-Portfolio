@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+.container-fluid {
+  padding: 0px;
+  margin: 0;
+}
+.containerheader {
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.navbar{
+  text-align: right;
+}
+
+.containerdescription{
+  background: #fff;
+  margin: 0;
+}
+.jumbotron {
+
+  margin-top: 50px;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 50px;
+  padding: 50px;
+}
+
+footer {
+  color: #343a40;
+
+  height: 40px;
+  background: #343a40;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+}
