@@ -10,8 +10,21 @@
   margin-right: 150px;
 }
 
+#namecolor{
+  color: #f7c08a;
+}
+
 .navbar{
   text-align: right;
+}
+
+a:hover {
+  color: #f7c08a;
+  
+}
+a.active {
+  color: #f7c08a;
+  
 }
 
 .containerdescription{
