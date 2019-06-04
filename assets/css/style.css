@@ -27,17 +27,34 @@ a.active {
   
 }
 
+.navbar {
+  padding: 0;
+  float: right;
+
+}
+
 .containerdescription{
   background: #fff;
   margin: 0;
 }
 .jumbotron {
 
-  margin-top: 50px;
+  /* margin-top: 50px; */
   margin-left: 150px;
   margin-right: 150px;
   margin-bottom: 50px;
   padding: 50px;
+}
+
+@keyframes example {
+  from {color: #343a40}
+  to {color: #f7c08a;}
+}
+
+.descritpionname  {
+  color: #343a40;
+  animation-name: example;
+  animation-duration: 4s;
 }
 
 footer {

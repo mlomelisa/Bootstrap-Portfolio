@@ -23,3 +23,7 @@ html,body {
  a.current a:hover {
    color: #f7c08a;
  }
+
+ h1 {
+   font-size: 1.5em;
+ }

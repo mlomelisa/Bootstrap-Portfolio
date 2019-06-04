@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link rel="stylesheet" href="./assets/css/style.css">
   <link rel="stylesheet" href="./assets/css/portfolio.css">
+  <link rel="stylesheet" media="screen and (max-width:768px)" href="assets/css/mobile.css">
   <title>Profile</title>
 </head>
 
@@ -15,13 +16,13 @@
   <div class="container-fluid bg-dark maincontainer">
     <header class="containerheader">
       <div class="row">
-        <div class="col">
-          <div class="page-header font-weight-bold text-white bg-dark">
-            <h1><span id=namecolor>Monica</span> Lomeli</h1>
+        <div class="col-md-6">
+          <div class="page-header font-weight-bold text-white bg-dark text-center text-md-left">
+            <h1><span id="namecolor">Monica</span> Lomeli</h1>
           </div>
         </div>
-        <div class="col">
-            <nav class="navbar navbar-dark bg-dark navbar-inverse">
+        <div class="col-md-6">
+            <nav class="navbar navbar-dark bg-dark navbar-inverse float-none float-md-right">
                 <ul class="nav">
                     <li class="nav-item">
                       <a class="nav-link" href="index.html">About</a>
@@ -40,12 +41,12 @@
         <div class="jumbotron shadow p-3 mb-5 bg-light rounded">
             <div class="row">
                 <div class="col">
-                  <h1 class="display-5">Portfolio</h1>
+                  <h1 class="display-5 descritpionname">Portfolio</h1>
                 </div>    
               </div>
               <div class="main">
                
-                  <section class="rowone">
+                  <section class="row">
                     <section class="picture">
                       <img id="hangman" src="./assets/images/dallas-kwok-402163-unsplash.jpg" alt="Red wall with a bike"/>
                       <p>Hangman</p>
@@ -56,7 +57,7 @@
                     </section>
                   </section>
         
-                 <section class="rowtwo">
+                 <section class="row">
                     <section class="picture">
                       <img id="triviagame" src="./assets/images/paul-bergmeir-97704-unsplash.jpg" alt="Top of building"/>
                       <p>Trivia Game</p>
@@ -66,7 +67,7 @@
                       <p>Rutgers Info Widget</p>
                    </section>
                  </section>
-                 <section class="rowthree">
+                 <section class="row">
                   <section class="picture">
                       <img id="rockpaper" src="./assets/images/trent-erwin-338084-unsplash.jpg" alt="Desk with glasses"/>
                       <p>Rock Paper Scissors</p>
@@ -78,7 +79,7 @@
     </div>   
   </div>
     
- <footer class="container-fluid bg-dark">
+ <footer class="container-fluid bg-dark fixed-bottom">
   
 </footer>
 
